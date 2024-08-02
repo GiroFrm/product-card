@@ -53,11 +53,14 @@
     --dark-grayish-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
 
-    --fw-100:0.875rem;
-    --fw-150: 1rem;
+    --fs-100:0.875rem;
+    --fs-150: 1rem;
 
     --ff-Fraunces: "Fraunces", serif;
     --ff-Montserrat: "Montserrat", sans-serif;
+
+    --fw-black: 500;
+    --fw-bold:700;
 
   }
 
@@ -66,6 +69,10 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color:#6C7289;
+    font-weight: var(--fw-black);
+    font-family: var(--ff-Montserrat);
+    font-size: var(--fs-100);
   }
 
   .card{
@@ -81,3 +88,31 @@
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
   }
+
+  .right-card{
+    padding: 2rem;
+  }
+
+  .label{
+    text-transform: uppercase;    
+    letter-spacing: 5px;
+    font-size: var(--fs-100);
+    margin-bottom: 20px;
+  }
+
+  .title{
+    line-height: 1.1;
+    font-size: 2.2rem;
+    font-family: var(--ff-Fraunces);
+    color:var(--very-dark-blue);
+    font-weight: var(--fw-bold);
+
+    margin-bottom: 24px;
+  }
+
+  .description{
+    margin-bottom: 29px;
+    line-height: 1.5;
+  }
+
+  
