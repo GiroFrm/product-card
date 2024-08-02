@@ -73,13 +73,16 @@
     font-weight: var(--fw-black);
     font-family: var(--ff-Montserrat);
     font-size: var(--fs-100);
+
+    background-color: var(--cream);
   }
 
   .card{
     max-width: 37.5rem;
     display: flex;
     border-radius: 0.5rem;
-    outline: 3px solid red;
+    background-color: var(--white);
+   
   }
 
   .card-image{
