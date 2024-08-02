@@ -60,3 +60,24 @@
     --ff-Montserrat: "Montserrat", sans-serif;
 
   }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card{
+    max-width: 37.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+    outline: 3px solid red;
+  }
+
+  .card-image{
+    max-width: 50%;
+    max-height: 450px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
