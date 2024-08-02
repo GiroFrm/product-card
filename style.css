@@ -68,6 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     height: 100vh;
     color:#6C7289;
     font-weight: var(--fw-black);
@@ -85,16 +86,35 @@
    
   }
 
+  
+
   .card-image{
-    max-width: 50%;
+    /* max-width: 50%; */
     
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
   }
 
+  picture{
+   
+   
+  }
+
+  
+
   .right-card{
     padding: 2rem;
+    max-width: 50%;
    
+  }
+  @media(max-width: 553px){
+    .card{
+        flex-direction: column;
+    }
+   
+    .right-card{
+        max-width: 100%;
+    }
   }
 
   .label{
@@ -152,11 +172,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
     padding: 1em;
     border-radius: 0.6em;
   }
 
-  .buy-button p{
-    margin-left: 0.5em;
-  }
+
