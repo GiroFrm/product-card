@@ -115,4 +115,26 @@
     line-height: 1.5;
   }
 
-  
+  .discount{
+    font-size: 2rem;
+    font-family: var(--ff-Fraunces);
+    font-weight: var(--fw-bold);
+    color:var(--dark-cyan);
+    position: relative;
+
+    margin-bottom: 30px;
+  }
+
+  .price{
+    font-size:var(--fs-100);
+    font-weight: var(--fw-black);
+    font-family: var(--ff-Montserrat);
+    color:#6C7289;
+
+    margin-top: 13px;
+    margin-left:1rem;
+    position: absolute;
+    text-decoration: line-through;
+
+    
+  }
